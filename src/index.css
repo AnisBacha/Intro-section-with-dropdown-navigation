@@ -181,7 +181,8 @@ body{
     width: 100%;
   }
   .header__list{
-    max-width: 650px;
+    max-width: 500px;
+    margin-inline-start: 2rem;
     justify-content: space-evenly;
   }
   .header__top-bar{
@@ -192,6 +193,12 @@ body{
     position: static;
     justify-content: space-between;
   }
+  .header__list li{
+    font-size: 1rem;
+    margin-block: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
   .header__top-bar div{
     display: flex;
     width: 100%;
@@ -200,7 +207,7 @@ body{
   .header__top-bar div button{
     margin-inline: .5rem;
     max-width: 100px;
-    padding: .5rem 1rem;
+    padding: .75rem 1rem;
     font-size: 1rem;
   }
   .features-list, .company-list{
