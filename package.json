@@ -1,6 +1,7 @@
 {
   "name": "introsection",
   "version": "0.1.0",
+  "homepage": "https://AnisBacha.github.io/Intro-section-with-dropdown-navigation",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
